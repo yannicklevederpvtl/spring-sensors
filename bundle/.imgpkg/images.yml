@@ -1,0 +1,7 @@
+---
+apiVersion: imgpkg.carvel.dev/v1alpha1
+images:
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/dprocha/spring-sensors@sha256:f5f3f3d05fec383ddfe58353ba8db5e1cc4d17c5941e3769ff8510a2fd8bd901
+  image: ghcr.io/dprocha/spring-sensors@sha256:f5f3f3d05fec383ddfe58353ba8db5e1cc4d17c5941e3769ff8510a2fd8bd901
+kind: ImagesLock
