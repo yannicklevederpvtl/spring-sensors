@@ -1,7 +1,6 @@
 apiVersion: apps.tanzu.vmware.com/v1
 kind: ContainerApp
 metadata:
-  creationTimestamp: null
   name: spring-sensors
 spec:
   build:
@@ -11,3 +10,7 @@ spec:
   - name: main
     port: 8080
   replicas: 1
+
+
+
+
