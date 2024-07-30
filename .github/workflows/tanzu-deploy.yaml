@@ -20,5 +20,5 @@ jobs:
           tanzu_api_token: ${{ secrets.TanzuApiToken }}
           container_registry: ghcr.io/${{ github.actor }}/spring-sensors
           # buildPlanSource: custom-build-plan
-          project: "AMER-West"
-          space: "diego-space"
+          project: AMER-West
+          space: diego-space
