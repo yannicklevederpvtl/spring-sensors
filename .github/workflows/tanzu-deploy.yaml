@@ -17,7 +17,7 @@ jobs:
       - name: Deploy application to Tanzu Platform
         uses: cpage-pivotal/tanzu-deploy-action@v1.3
         with:
-          tanzu_api_token: ${{ secrets.TanzuApiToken }}
+          tanzu_api_token: ${{ secrets.TANZUAPITOKEN }}
           container_registry: ghcr.io/${{ github.actor }}/spring-sensors
           # buildPlanSource: custom-build-plan
           #
